@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PANTROPSYSTEM</title>
+  <link rel="stylesheet" href="bini.css">
+  <link rel="icon" href="bini logo.jfif" type="image/png">
+</head>
+<body>
+  <section class="slider-container">
+    <div class="slider-images">
+      <div class="slider-img">
+        <img src="bini jo/jooo.png" alt="1" class="thumbnail">
+        <img src="bini jo/joooo.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="jo">JHOANNA</h1>
+        <div class="details">
+          <h2 class="bini-jo">Jhoanna Christine Robles</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="bini gwen/bini gwenn.png" alt="1" class="thumbnail">
+        <img src="bini gwen/bini gwen.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="gwen">GWEN</h1>
+        <div class="details">
+          <h2 class="bini-gwen">Gweneth Apuli</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="bini maloi/bini maloii.png" alt="1" class="thumbnail">
+        <img src="bini maloi/bini maloi.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="maloi">MALOI</h1>
+        <div class="details">
+          <h2 class="bini-maloi">Mary Loi Yves Ricalde</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="bini colet/colet.png" alt="1" class="thumbnail">
+        <img src="bini colet/colett.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="colet">COLET</h1>
+        <div class="details">
+          <h2 class="bini-colet">Ma. Nicolette Vergara</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="bini mikha/bini mikhaa.png" alt="1" class="thumbnail">
+        <img src="bini mikha/bini mikha.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="mikha">MIKHA</h1>
+        <div class="details">
+          <h2 class="bini-mikha">Mikhaela Janna Lim</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="bini sheena/bini sheena.png" alt="1" class="thumbnail">
+        <img src="bini sheena/bini sheenaa.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="sheena">SHEENA</h1>
+        <div class="details">
+          <h2 class="bini-sheena">Sheena Mae Catacutan</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="bini aiah/bini aiahh.png" alt="1" class="thumbnail">
+        <img src="bini aiah/bini aiah.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="aiah">AIAH</h1>
+        <div class="details">
+          <h2 class="bini-aiah">Maraiah Queen Arceta</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="bini stacey/bini staceyy.png" alt="1" class="thumbnail">
+        <img src="bini stacey/bini stacey.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="stacey">STACEY</h1>
+        <div class="details">
+          <h2 class="bini-stacey">Lindtsey Stacey Aubrey Sevilleja</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Music Player Section -->
+  <div class="music-player">
+    <div class="player-details">
+      <img src="pantropiko cover.jfif" alt="Album Cover" class="album-cover">
+      <div class="song-details">
+        <h3 class="song-title">Pantropiko</h3>
+        <p class="artist-name">BINI</p>
+      </div>
+    </div>
+    <audio controls>
+      <source src="BINI - Pantropiko.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <!-- jQuery Library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- jQuery Script to handle slider interaction -->
+  <script>
+    $(document).ready(function () {
+      $(".slider-img").on("click", function () {
+        $(".slider-img").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
+</body>
+</html>
